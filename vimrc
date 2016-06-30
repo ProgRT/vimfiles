@@ -7,3 +7,4 @@ set autoindent
 set mouse=a
 let g:netrw_winsize=30
 filetype plugin on
+syntax on
