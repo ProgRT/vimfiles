@@ -8,6 +8,7 @@ let g:netrw_winsize=30
 filetype plugin on
 syntax on
 colors darkblue
+cmap nt NERDTree
 
 " Attempt to add portable git to runtime
 if has('win32')
