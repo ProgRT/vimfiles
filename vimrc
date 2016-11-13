@@ -1,6 +1,7 @@
 execute pathogen#infect()
 set hlsearch
 imap jj <esc>
+map <C-n> :NERDTree<CR>
 set autoindent
 set mouse=a
 let g:netrw_winsize=30
