@@ -9,7 +9,7 @@ filetype plugin on
 syntax on
 set number
 
-colors darkblue
+colors desert
 let g:airline_theme="bubblegum"
 
 " Attempt to add portable git to runtime
