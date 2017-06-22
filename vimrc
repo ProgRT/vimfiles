@@ -1,16 +1,24 @@
-execute pathogen#infect()
-set hlsearch
-imap jj <esc>
-map <C-n> :NERDTree<CR>
-set autoindent
 set mouse=a
-let g:netrw_winsize=30
+set hlsearch
+set autoindent
+set number
 filetype plugin on
 syntax on
-set number
-
+imap jj <esc>
 colors desert
+let g:netrw_winsize=30
+
+call plug#begin()
+
+Plug 'tpope/vim-fugitive'
+
+call plug#end()
+
+map <C-n> :NERDTree<CR>
+
 let g:airline_theme="bubblegum"
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#branch#enabled = 1
 
 " Attempt to add portable git to runtime
 if has('win32')
@@ -19,5 +27,3 @@ if has('win32')
 endif
 
 set laststatus=2
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#branch#enabled = 1
