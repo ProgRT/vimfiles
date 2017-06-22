@@ -2,8 +2,10 @@ set mouse=a
 set hlsearch
 set autoindent
 set number
-filetype plugin on
-syntax on
+
+#unnecessary with plug.vim
+#filetype plugin on
+#syntax on
 imap jj <esc>
 colors desert
 let g:netrw_winsize=30
