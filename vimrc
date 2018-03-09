@@ -8,7 +8,11 @@ set number
 "syntax on
 imap jj <esc>
 colors desert
-let g:netrw_winsize=30
+
+" netrw settings
+let g:netrw_winsize=25
+let g:netrw_banner=0
+let g:netrw_browse_split=4
 
 call plug#begin()
 
