@@ -3,6 +3,7 @@ set hlsearch
 set autoindent
 set number
 set laststatus=2
+set tabstop=3
 colors desert
 imap jj <esc>
 
