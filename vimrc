@@ -5,6 +5,7 @@ set autoindent
 set number
 set laststatus=2
 set tabstop=3
+set noshowmode
 colors desert
 imap jj <esc>
 
@@ -25,6 +26,7 @@ Plug 'xolox/vim-misc'
 Plug 'itchyny/calendar.vim'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'godlygeek/tabular'
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 
