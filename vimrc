@@ -13,6 +13,7 @@ let g:netrw_winsize=25
 let g:netrw_banner=0
 let g:netrw_browse_split=0
 
+let g:vimwiki_list = [ {'path': '~/notebook/', 'path_html': '~/notebook_html'} ]
 call plug#begin()
 
 Plug 'tpope/vim-fugitive'
@@ -22,6 +23,8 @@ Plug 'vimwiki/vimwiki'
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
 Plug 'itchyny/calendar.vim'
+Plug 'dhruvasagar/vim-table-mode'
+Plug 'godlygeek/tabular'
 
 call plug#end()
 
