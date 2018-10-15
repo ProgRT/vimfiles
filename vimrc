@@ -4,7 +4,9 @@ set incsearch
 set autoindent
 set number
 set laststatus=2
-set tabstop=3
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set noshowmode
 colors desert
 imap jj <esc>
