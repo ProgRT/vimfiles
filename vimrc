@@ -14,7 +14,8 @@ imap jj <esc>
 " netrw settings
 let g:netrw_winsize=25
 let g:netrw_banner=0
-let g:netrw_browse_split=0
+let g:netrw_browse_split=4
+let g:netrw_liststyle=3
 
 let g:vimwiki_list = [ {'path': '~/notebook/', 'path_html': '~/notebook_html'} ]
 call plug#begin()
@@ -26,6 +27,7 @@ Plug 'vimwiki/vimwiki'
 Plug 'xolox/vim-notes'
 Plug 'xolox/vim-misc'
 Plug 'itchyny/calendar.vim'
+Plug 'jiangmiao/auto-pairs'
 Plug 'dhruvasagar/vim-table-mode'
 Plug 'godlygeek/tabular'
 Plug 'vim-airline/vim-airline'
